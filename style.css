@@ -131,6 +131,12 @@ a {
 	}
 }
 
+@media (max-width: 800px) {
+	.cards {
+		grid-template-columns: 1fr;
+	}
+}
+
 @media (min-width: 1000px) {
 	.container {
 		width: 800px;
